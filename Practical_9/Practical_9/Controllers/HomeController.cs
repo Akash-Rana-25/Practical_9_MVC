@@ -21,7 +21,8 @@ namespace Practical_9.Controllers
 
         public ActionResult test3()
         {
-            return View();
+            string message = "Hello World !!!";
+            return View((object)message);
         }
     }
 }
